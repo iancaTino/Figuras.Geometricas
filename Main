@@ -1,0 +1,17 @@
+public class Programa {
+    public static void main(String[] args){
+        FiguraPlana triangulo = new Triangulo(3,4);
+        FiguraPlana quadrado = new Quadrado(4);
+        FiguraPlana losangulo = new Losangulo(4,3);
+        FiguraPlana retangulo = new Retangulo(5,6);
+        FiguraPlana trapezio = new Trapezio(2,4,3);
+        FiguraPlana circulo = new Circulo(3.14,3);
+
+        System.out.println("Área do Triângulo: " + triangulo.calcularArea());
+        System.out.println("Área do Quadrado:" + quadrado.calcularArea());
+        System.out.println("Área do Losangulo:" + losangulo.calcularArea());
+        System.out.println("Área do Retangulo:" + retangulo.calcularArea());
+        System.out.println("Área do Trapezío:" + trapezio.calcularArea());
+        System.out.println("Área do Circulo:" + circulo.calcularArea());
+    }
+}

@@ -1,0 +1,12 @@
+public class Circulo implements FiguraPlana{
+    private double constante;
+    private double raio;
+
+    public Circulo(double constante,double raio){
+        this.constante = constante;
+        this.raio = raio;
+    }
+    public double calcularArea(){
+        return Math.PI * raio * raio;
+    }
+}

@@ -1,3 +1,3 @@
 public interface FiguraPlana {
-    public double calcularArea();
+    public double calcularArea(); 
 }
